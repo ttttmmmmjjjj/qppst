@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cccccc"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:id="@+id/page1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/bedroom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType6"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/crowd_places"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType4"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/half_basement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType2"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/two_gas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType7"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/basement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType1"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/Highrise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType3"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/Airtight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType5"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/Others"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/StopSupplyType8"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/page2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/no_safe_EXTRCTOR"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType1"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/UnInstallType2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType2"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/have_fire"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType11"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/no_match"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType4"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/UnInstallType5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType5"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/no_rubber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType6"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/UnInstallType7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType7"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/no_safe_gas_cooker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType3"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/leak"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType9"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/other"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/UnInstallType12"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </FrameLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#ffffff"
+            android:padding="15dp" >
+        </View>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="3"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="10dp" >-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/ErrorAddress"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/ErrorAddress"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/RefuseInspection"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/RefuseInspection"-->
+        <!--android:textSize="18sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/ErrorNature"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/ErrorNature"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/IsInstall"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/IsInstall"-->
+        <!--android:textSize="18sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/AnnualSearch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/AnnualSearch"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/GasItem"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/GasItem"-->
+        <!--android:textSize="18sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/LiquidItem"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/LiquidItem"-->
+        <!--android:textSize="18sp" />-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+            <Button
+                android:id="@+id/sign"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:onClick="click3"
+                android:background="@drawable/btn_delivertask_selector"
+                android:drawableTop="@drawable/print"
+                android:text="@string/print"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/takepic"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/btn_delivertask_selector"
+                android:drawableTop="@drawable/camera"
+                android:onClick="click1"
+                android:text="拍照"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp" >
+            <Button
+                android:id="@+id/preview"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/btn_delivertask_selector"
+                android:drawableTop="@drawable/view"
+                android:onClick="click2"
+                android:text="预览"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:onClick="upload"
+                android:background="@drawable/btn_delivertask_selector"
+                android:drawableTop="@drawable/submit"
+                android:text="上传"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</TabHost>

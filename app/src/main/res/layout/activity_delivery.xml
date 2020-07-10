@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/tab_basicInfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_saleID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="订单：000000000"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <TextView
+                                android:id="@+id/txt_cardID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="卡号：100001"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <TextView
+                                android:id="@+id/txt_userType"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="姓名：张丹丹"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+                            <TextView
+                                android:id="@+id/txt_userName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="姓名：张丹丹"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txt_phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="电话：18389808089"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txt_callingPhone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="电话：18389808089"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txt_goods"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="商品：专用平红/2,15KG/3"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txt_price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="商品：专用平红/2,15KG/3"
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txt_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="奉贤大渡河路168弄10号1楼"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                />
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab_operation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <CheckBox
+                            android:id="@+id/cb_rubberTube"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:text="赠送橡皮管"
+                            android:textColor="#000000"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="接装类型"
+                            android:background="#cccccc"
+                            android:layout_marginTop="10dp"
+                            android:gravity="left"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                        <RadioGroup
+                            android:id="@+id/rg_installType"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/rb_c"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="公司装"
+                                android:gravity="left|center_vertical"
+                                android:textColor="#000000"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:id="@+id/rb_s"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="自装"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+                    <TextView
+                        android:id="@+id/txt_setPrice"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#cccccc"
+                        android:text="商品定价"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <ListView
+                        android:id="@+id/iv_goodprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"></ListView>
+                </LinearLayout>
+            </FrameLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></ListView>
+            <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="气瓶交易信息"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textStyle="bold" />-->
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="#cccccc">
+
+                <TextView
+                    android:id="@+id/blow"
+                    android:layout_width="340dp"
+                    android:layout_height="100dp"
+                    android:background="#999999"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/above"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#999999"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+                    <TextView
+                        android:id="@+id/txt_gpinfo3"
+                        android:layout_width="130dp"
+                        android:layout_height="34dp"
+                        android:layout_below="@+id/txt_gpinfo1"
+                        android:paddingTop="2dp"
+                        android:text="本次交付气瓶号:"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_gpinfo4"
+                        android:layout_width="220dp"
+                        android:layout_height="34dp"
+                        android:layout_below="@+id/txt_gpinfo2"
+                        android:layout_toRightOf="@+id/txt_gpinfo3"
+                        android:ellipsize="end"
+                        android:paddingTop="2dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_gpinfo1"
+                        android:layout_width="130dp"
+                        android:layout_height="34dp"
+                        android:layout_above="@+id/txt_gpinfo4"
+                        android:layout_toLeftOf="@+id/txt_gpinfo4"
+                        android:paddingTop="2dp"
+                        android:text="上次借用气瓶号:"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/checklook1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_alignBaseline="@+id/txt_gpinfo4"
+                        android:layout_alignBottom="@+id/txt_gpinfo4"
+                        android:layout_alignRight="@+id/txt_gpinfo4"
+                        android:text="查看"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/checklook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_alignBaseline="@+id/txt_gpinfo2"
+                        android:layout_alignLeft="@+id/checklook1"
+                        android:layout_alignRight="@+id/checklook1"
+                        android:text="查看"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/txt_gpinfo2"
+                        android:layout_width="200dp"
+                        android:layout_height="34dp"
+                        android:layout_alignLeft="@+id/txt_gpinfo4"
+                        android:layout_centerVertical="true"
+                        android:ellipsize="end"
+                        android:paddingTop="2dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#ffffff">
+
+                <Button
+                    android:id="@+id/btn_readQP"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_delivertask_selector"
+                    android:drawableTop="@drawable/readtag"
+                    android:text="扫描气瓶"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn_search"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_delivertask_selector"
+                    android:drawableTop="@drawable/xj"
+                    android:text="安全检查"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                >
+
+                <Button
+                    android:id="@+id/btn_print"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_delivertask_selector"
+                    android:drawableTop="@drawable/print"
+                    android:text="支付-打印"
+                    android:textColor="#000000" />
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_delivertask_selector"
+                    android:drawableTop="@drawable/submit"
+                    android:text="提交订单"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </TabHost>
+
+
+</LinearLayout>

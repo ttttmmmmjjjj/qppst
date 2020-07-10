@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/maincolor"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <SearchView
+            android:id="@+id/sv_saleID"
+            android:layout_width="match_parent"
+            android:layout_height="42dip"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/singleline_item_bg"
+            android:queryHint="请输入订单号" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dip"
+            android:background="@color/maincolor"
+            android:gravity="center_vertical"
+            android:text="@string/txt_saleInfo"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_stationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_saleID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_userID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_UserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_PhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_userAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_goodsInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_totalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_emptyID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="满瓶号:"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    tools:text="1111" />
+
+                <TextView
+                    android:id="@+id/txt_fullID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    tools:text="1111" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_operationTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_payMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+
+            <TextView
+                android:id="@+id/txt_operator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="1111" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_scanFull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_selector"
+                android:text="扫描满瓶"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_finish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_selector"
+                android:text="完成订单"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

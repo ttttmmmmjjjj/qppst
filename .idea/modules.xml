@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialoglibrary/dialoglibrary.iml" filepath="$PROJECT_DIR$/dialoglibrary/dialoglibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dragdellistview/dragdellistview.iml" filepath="$PROJECT_DIR$/dragdellistview/dragdellistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatbutton/floatbutton.iml" filepath="$PROJECT_DIR$/floatbutton/floatbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridview/gridview.iml" filepath="$PROJECT_DIR$/gridview/gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qppst.iml" filepath="$PROJECT_DIR$/qppst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supplymanager/supplymanager.iml" filepath="$PROJECT_DIR$/supplymanager/supplymanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheelview/wheelview.iml" filepath="$PROJECT_DIR$/wheelview/wheelview.iml" />
+    </modules>
+  </component>
+</project>

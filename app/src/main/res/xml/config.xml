@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/title_server" >
+
+        <!-- 设备型号 -->
+        <Preference
+            android:defaultValue="@string/devicetype_default"
+            android:key="devicetype"
+            android:title="@string/title_devicetype" />
+        <!-- 设备编号 -->
+        <Preference
+            android:key="deviceid"
+            android:title="@string/title_deviceid" />
+        <!-- 应用版本 -->
+        <Preference
+            android:defaultValue="@string/version_default"
+            android:key="version"
+            android:title="@string/title_version" />
+        <!-- 蓝牙MAC -->
+        <Preference
+            android:key="bluetooth"
+            android:title="@string/title_bluetooth" />
+        <!-- 供应站管理服务 -->
+        <EditTextPreference
+            android:defaultValue="@string/web_default"
+            android:dialogTitle="@string/text_webserver"
+            android:key="WebServer"
+            android:summary="@string/hint_webserver"
+            android:title="@string/title_webserver" />
+
+         <EditTextPreference
+            android:defaultValue="@string/web_port_default"
+            android:dialogTitle="@string/text_web_port"
+            android:key="WebServerPort"
+            android:summary="@string/hint_web_port"
+            android:title="@string/title_web_port" />
+         
+         <!-- FTP地址 -->
+          <EditTextPreference
+            android:defaultValue="@string/ftp_default"
+            android:dialogTitle="@string/text_ftpserver"
+            android:key="FTPServer"
+            android:summary="@string/hint_ftpserver"
+            android:title="@string/title_ftpserver" />
+           <!-- FTP端口 -->
+          <EditTextPreference
+            android:defaultValue="@string/ftp_port_default"
+            android:dialogTitle="@string/txt_ftpport"
+            android:key="FTPPort"
+            android:summary="@string/hint_ftpport"
+            android:title="@string/title_ftpport" />
+
+        <!-- 单位 -->
+        <ListPreference
+            android:key="@string/key_str"
+            android:title="@string/title_listpreference"
+            android:entries="@array/entries_str"
+            android:entryValues="@array/entries_values_str"
+            android:dialogTitle="@string/dialog_title"
+            android:summary="@string/summary_str"
+            ></ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

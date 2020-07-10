@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <EditText
+            android:id="@+id/edt_cardID"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:hint="输入客户卡号"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_cardID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_selector"
+            android:text="查询"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <EditText
+            android:id="@+id/edt_telephone"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:ems="10"
+            android:hint="输入电话"
+            android:inputType="textPersonName"
+            />
+
+        <Button
+            android:id="@+id/btn_telephone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_btn_selector"
+            android:text="查询"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <EditText
+            android:id="@+id/edt_userName"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:ems="10"
+            android:hint="输入姓名"
+            android:inputType="textPersonName"
+            />
+
+        <Button
+            android:id="@+id/btn_userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_btn_selector"
+            android:text="查询"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="输入地址"
+            android:inputType="textPersonName"
+            />
+
+        <Button
+            android:id="@+id/btn_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bg_btn_selector"
+            android:text="查询"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_txt"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="46dip"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="登陆"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+       />
+
+
+</LinearLayout>

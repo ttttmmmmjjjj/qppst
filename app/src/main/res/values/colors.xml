@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="maincolor">#006633</color>
+    <color name="line">#ffd3dde6</color>
+    <color name="linene">#ff000000</color>
+    <color name="commo_text_color">#ff333333</color>
+    <!-- QRCode scanner color begin -->
+    <color name="result_view">#b0000000</color>
+    <color name="scan_viewfinder_mask">#60000000</color>
+    <color name="scan_result_view">#B0000000</color>
+    <color name="scan_viewfinder_frame">#90FFFFFF</color>
+    <color name="scan_result_point_color">#C0FFFF00</color>
+    <color name="scan_laser_color">#0F0</color>
+    <color name="scan_corner_color">#00FF00</color>
+    <!-- QRCode scanner color end -->
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+    <color name="main_color_white">#ffffff</color>
+    <color name="loan_butBackground">#006633</color>
+
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="transparent">#00000000</color>
+    <!--主页底部导航 -->
+    <color name="commom_background">#f3f3f3</color>
+    <color name="white">#ffffffff</color>
+</resources>

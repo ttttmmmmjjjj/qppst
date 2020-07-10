@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">气瓶配送通</string>
+    <!-- 菜单-->
+    <string name="menu_search">查找</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about_us">关于</string>
+    <!-- 数据库版本-->
+    <string name="data_version">1</string>
+
+    <string name="web_default">47.100.12.195</string>
+    <!--<string name="web"></string>-->
+    <string name="web_port_default">3303</string>
+    <!--<string name="web_port"></string>-->
+    <string name="ftp_default">47.100.12.195</string>
+    <!--<string name="ftp">47.100.12.195</string>-->
+    <string name="ftp_port_default">22</string>
+    <string name="ftp_port">22</string>
+    <string name="outTime">60</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- 登录输入字符控制-->
+    <string name="digist">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@.</string>
+    <!-- 安检项 -->
+    <string name="StopSupplyType1">调压器泄漏</string>
+    <string name="StopSupplyType2">热水器无烟道或烟道安装不规范</string>
+    <string name="StopSupplyType3">使用场所不规范</string>
+    <!-- -20181214 未按规定安装使用泄漏报警器 改为 未安装燃气报警装置 -->
+    <string name="StopSupplyType4">未安装燃气报警装置 </string>
+    <!-- -20181214 调压器使用不规范 改为 中低压不匹配 -->
+    <string name="StopSupplyType5">中低压不匹配</string>
+    <!-- -20181214 商业餐饮用户未按规定设瓶组间或无瓶库 改为 中低压不匹配 -->
+    <string name="StopSupplyType6">钢瓶总量超标未设瓶库</string>
+    <string name="StopSupplyType7">同室使用二种及以上气源</string>
+
+    <!-- s8取消之后更改为“其他隐患” -->
+    <string name="StopSupplyType8">其他严重隐患</string>
+    <string name="UnInstallType1">使用非强制排风热水器</string>
+    <!-- -20181214 U2 燃气具设施未年检  【新增】 -->
+    <string name="UnInstallType2">燃气具设施未年检</string>
+    <string name="UnInstallType3">使用非安全型灶具</string>
+    <string name="UnInstallType4">使用场所排风不畅</string>
+    <!-- 20181214 U5 用气场所设置不合理  【新增】-->
+    <string name="UnInstallType5">用气场所设置不合理</string>
+    <!-- -20181214 橡胶管使用不规范 改为 橡胶管隐患 -->
+    <string name="UnInstallType6">橡胶管隐患</string>
+    <!-- 20181214 -U7 蒸饭箱沸水炉未装烟道 【新增】 -->
+    <string name="UnInstallType7">蒸饭箱沸水炉未装烟道</string>
+    <string name="UnInstallType8">连接设施无夹箍</string>
+    <!-- -20181214 燃气具故障 改为 调压器老化 -->
+    <string name="UnInstallType9">调压器老化</string>
+    <string name="UnInstallType10">强制使用液化气</string>
+    <string name="UnInstallType11">餐饮用户灶位排烟设施不全</string>
+    <string name="UnInstallType12">其他隐患</string>
+    <!-- 整改新增加项目 -->
+    <string name="update">更新</string>
+    <string name="repair">修复</string>
+    <string name="stop">停用</string>
+    <string name="result">其他</string>
+    <!--fragment title -->
+    <string name="title_server">应用基本配置信息</string>
+    <string name="devicetype_default">0000000</string>
+    <string name="title_devicetype">设备型号</string>
+    <string name="title_deviceid">设备编号</string>
+    <string name="version_default">1.0</string>
+    <string name="title_version">应用版本</string>
+    <string name="title_bluetooth">设置打印机蓝牙</string>
+    <string name="text_web_port">输入服务端口号</string>
+    <string name="hint_web_port">在此输入服务端口号</string>
+    <string name="title_web_port">服务端口号</string>
+    <string name="text_webserver">输入后台服务IP地址</string>
+    <string name="hint_webserver">在此输入后台服务IP地址</string>
+    <string name="title_webserver">后台服务IP地址</string>
+    <string name="text_ftpserver">输入文件上传服务IP地址</string>
+    <string name="hint_ftpserver">在此输入FTP服务IP地址</string>
+    <string name="title_ftpserver">FTP服务IP地址</string>
+    <string name="txt_ftpport">输入文件上传FTP端口号</string>
+    <string name="hint_ftpport">在此输入FTP端口号</string>
+    <string name="title_ftpport">FTP服务端口号</string>
+    <!--门售 -->
+    <string name="btn_placeOrder">下单</string>
+    <string name="btn_pickGoods">提货</string>
+    <string name="btn_print">打印</string>
+    <string name="btn_exchangegoods">换货</string>
+    <string name="btn_canselOrder">作废</string>
+    <string name="btn_count">统计</string>
+    <string name="title_activity_place_order">PlaceOrderActivity</string>
+    <string name="rdoBtn_userid">用户编号</string>
+    <string name="rdoBtn_userName">用户姓名</string>
+    <string name="btn_upGoods">新增商品</string>
+    <string name="btn_upAccessory">新增配件</string>
+    <string name="btn_scanEmpty">扫描空瓶</string>
+    <string name="btn_scanFull">扫描满瓶</string>
+    <string name="btn_submit">提交订单</string>
+    <string name="txt_userInfo">用户信息</string>
+    <string name="txt_goodsInfo">商品信息</string>
+    <string name="txt_saleInfo">订单信息</string>
+    <string name="IsNew">新用户</string>
+    <string name="print">打印-签字</string>
+    <string name="upload">上传</string>
+    <string name="title_activity_web">WebActivity</string>
+
+    <!-- 公司单位以及联系电话 -->
+    <string name="key_str">UnitCode</string>
+    <string name="title_str">公司</string>
+    <string name="title_listpreference">选择公司</string>
+    <string-array name="entries_str">
+        <item>恒申燃气</item>
+        <item>金山燃气</item>
+        <item>中信燃气</item>
+        <item>奉交燃气</item>
+    </string-array>
+    <string-array name="entries_values_str">
+        <item>1910</item>
+        <item>1607</item>
+        <item>1707</item>
+        <item>2010</item>
+    </string-array>
+    <string name="dialog_title">请选择配送公司</string>
+    <string name="summary_str"></string>
+
+</resources>

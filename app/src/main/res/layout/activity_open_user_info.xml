@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@color/maincolor"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="用户基本信息"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userName"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户姓名"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userName"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入用户姓名"
+            android:singleLine="true"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userphone"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="联系电话"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userphone"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入联系电话"
+            android:inputType="phone"
+            android:maxLength="20"
+            android:digits="1234567890"
+            android:singleLine="true"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userIDCard"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="身份证号"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/edt_userIDCard"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入身份证号"
+            android:inputType="text"
+            android:maxLength="18"
+            android:singleLine="true"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userAddress"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户地址"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userAddress"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入用户地址"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userType"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户类型"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userType"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="点击选择用户类型"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userQX"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="区县/街道"
+            android:hint="请输入用户地址"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userQX"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:hint="点击选择区县,街道"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userDistance"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="送气距离"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userDistance"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="点击选择送气距离"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_userFloor"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择楼层"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edt_userFloor"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="点击选择楼层"
+            android:background="@drawable/bg_edittext"></EditText>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="46dip"
+        android:background="@drawable/bg_btn_selector"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="20sp"/>
+</LinearLayout>

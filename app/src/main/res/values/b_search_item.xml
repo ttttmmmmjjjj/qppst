@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 严重隐患-->
+    <string name="b_StopSupplyType1">商业餐饮用气场所未按规定安装使用燃气泄漏报警器</string>
+    <string name="b_StopSupplyType2">燃气泄漏报警器未按规定定期检验及定期检验不合格</string>
+    <string name="b_StopSupplyType3">气瓶角阀泄漏</string>
+    <string name="b_StopSupplyType4">调压器泄漏</string>
+    <string name="b_StopSupplyType5">燃气连接管，或其与器具连接处泄漏</string>
+    <string name="b_StopSupplyType6">燃气连接管上的阀门有外漏</string>
+    <string name="b_StopSupplyType7">液化石油气钢瓶设置在起居室、卧室、卫生间、浴室、地下室、半地下室或高层建筑内</string>
+    <string name="b_StopSupplyType8">燃气器具设置在起居室、卧室、卫生间、浴室</string>
+    <string name="b_StopSupplyType9">存瓶总重量超过60kg，未设置单独瓶组间或瓶库</string>
+    <string name="b_StopSupplyType10">单独瓶组间或瓶库不符合要求：（1）高度不低于2.2米;（2）应设置不少于两个靠近地坪的通风口;（3）电线、电器设备应有防爆措施;（4）不得有地沟</string>
+    <string name="b_StopSupplyType11">气瓶组与燃气器具布置在同一房间</string>
+    <string name="b_StopSupplyType12">热水器未安装烟道或烟气未排至室外</string>
+    <string name="b_StopSupplyType13">使用非强制排风式燃气快速热水器</string>
+    <string name="b_StopSupplyType14">同一用气场所使用两种或两种以上气源或燃料</string>
+    <string name="b_StopSupplyType15">使用可调式调压器或三无类调压器</string>
+    <!-- 一般隐患-->
+    <string name="b_UnInstallType1">橡胶管连接处无卡箍固定</string>
+    <string name="b_UnInstallType2">气瓶与燃具的净距小于0.5m</string>
+    <string name="b_UnInstallType3">非燃气专用胶管</string>
+    <string name="b_UnInstallType4">橡胶管与燃气器具的连接长度超过2米</string>
+    <string name="b_UnInstallType5">采用橡胶软管连接时，中间使用接头或三通</string>
+    <string name="b_UnInstallType6">橡胶管变硬或龟裂损坏，老化</string>
+    <string name="b_UnInstallType7">橡胶管穿越门窗、墙壁、楼板</string>
+    <string name="b_UnInstallType8">调压器壳体外观有明显缺陷</string>
+    <string name="b_UnInstallType9">气瓶未直立使用</string>
+    <string name="b_UnInstallType10">钢瓶存放地点通风不良</string>
+    <string name="b_UnInstallType11">燃气灶具无熄火保护安全装置</string>
+    <string name="b_UnInstallType12">燃气灶安装地点通风不良</string>
+    <string name="b_UnInstallType13">燃气热水器安装位置通风不良</string>
+    <string name="b_UnInstallType14">大锅灶、中餐炒菜灶无排烟设施，大锅灶的炉膛或烟道处未设爆破门</string>
+</resources>
